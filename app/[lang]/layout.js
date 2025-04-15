@@ -27,6 +27,7 @@ export default function LangLayout({ children, params }) {
     return (
         <html lang={params.lang}>
             <head>
+        <meta name="cryptomus" content="713b3617" />
                 <link rel='icon' href='/favicon.ico' />
             </head>
             <body className={roboto.className}>
